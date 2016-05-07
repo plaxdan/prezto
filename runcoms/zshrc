@@ -13,5 +13,14 @@ fi
 ulimit -n 1024
 alias ds='echo $DS5PROXY_HOST:$DS5PROXY_PORT'
 alias git-delete-merged='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
+alias chrome='open /Applications/Google\ Chrome.app'
+alias canary='open /Applications/Google\ Chrome\ Canary.app'
 
 eval "$(gulp --completion=zsh)"
+
+path=(
+  $path
+  $ANDROID_HOME/tools
+  $ANDROID_HOME/platform-tools
+  $GOPATH/bin
+)
