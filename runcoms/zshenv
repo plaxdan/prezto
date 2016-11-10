@@ -15,3 +15,5 @@ export GOPATH=~/tools/go
 
 export DS5PROXY_HOST=http://chicken.datasplice.com
 export DS5PROXY_PORT=80
+
+export NPM_PACKAGES="${HOME}/.npm-packages"
