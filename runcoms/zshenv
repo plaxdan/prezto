@@ -10,8 +10,8 @@ if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
-export ANDROID_HOME=~/tools/androidsdk
-export GOPATH=~/tools/go
+export ANDROID_HOME=~/tools/android
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
 
 export DS5PROXY_HOST=http://chicken.datasplice.com
 export DS5PROXY_PORT=80

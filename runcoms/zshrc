@@ -22,7 +22,7 @@ path=(
   $NPM_PACKAGES/bin
   $ANDROID_HOME/tools
   $ANDROID_HOME/platform-tools
-  $GOPATH/bin
+  $JAVA_HOME/bin
   $path
 )
 
